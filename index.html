@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <meta name="twitter:card" content="summary_large_image" />
+    <meta name="viewport" content="width=device-width">
+    <title>おやつガチャ</title>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://c-inoue09.github.io/gs-kadai03-janken-app-rich/">
+    <meta property="og:image" content="https://c-inoue09.github.io/gs-kadai03-janken-app-rich/img/ogp.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="おやつガチャ" />
+    <meta property="og:description" content="あなたが遠足に持っていくべき おやつがわかっちゃいます。安心のレスポンシブ対応。なおバナナは おやつに入りません" />
+    <meta property="og:site_name" content="300円おやつガチャ | by イノウエ" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ksasazawa.github.io/js2_sasazawa_17/">
+    <meta property="og:image" content="https://ksasazawa.github.io/js2_sasazawa_17/img/boice_daiary.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="音声ダイアリー" />
+    <meta property="og:description" content="日付ごとに日記をつけられます。文字入力にも音声入力にも対応。完了すると現在地が入ります。" />
+    <meta property="og:site_name" content="音声ダイアリー（広告ゲームもあるよ）" />
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/diary.js"></script>
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+        <!-- xxxx年xx月を表示 -->
+        <h1 id="header"></h1>
+    
+        <!-- ボタンクリックで月移動 -->
+        <div id="next-prev-button">
+            <button id="prev">‹</button>
+            <button id="next">›</button>
+        </div>
+    
+        <!-- カレンダー -->
+        <div id="calendar"></div>
+    </div>
+    <div id="popup-wrapper">
+        <div id="popup-inside">
+          <div id="close">x</div>
+          <div id="message">
+            <h2>入力してください</h2>
+            <textarea id="text" class="text" cols="70" rows="7"></textarea>
+            <div id="myMap"></div>
+          </div>
+          <div class="button_area">
+            <button id="start" class="speech_buttons">Start</button>
+            <button id="stop" class="speech_buttons">Stop</button>
+            <button id="save" class="speech_buttons">Save</button>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <div id="advertising">
+      <a href="battle.html" target="_blank"><img src="img/green_peace.jpeg" alt=""></a>
+      <p class="ad_text">グリンピース</p>
+      <p class="ad_close">x</p>
+    </div>
+  </footer>
+    
+</body>
+</html>
